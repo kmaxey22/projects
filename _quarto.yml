@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Krystal Maxey"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - href: Project_1.qmd
+        text: Project 1
+      - href: Project_2.qmd
+        text: Project 2
+
+
+format:
+  html:
+    backgroundcolor: "#aad2f2"
+    fontcolor: "#0b0e40"
+    mainfont: "sarif"
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
